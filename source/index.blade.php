@@ -3,27 +3,27 @@
 @section('body')
 <!-- Hero section -->
 <a name="home"></a>
-<section class='px-4 pt-12 pb-10 md:pb-12 md:pt-16 sm:px-6 lg:px-8'>
-  <div class='mx-auto max-w-screen-xl'>
+<section class="px-4 pt-12 pb-10 sm:px-6 md:pb-12 md:pt-16 lg:px-8">
+    <div class="mx-auto max-w-screen-xl">
 
-    <!-- Hero text -->
-    <div class='mx-auto w-full text-center max-w-screen-4xl xl:max-w-5xl'>
-      <p class="inline-flex justify-center items-center py-2 px-6 text-sm font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-dark-600 to-dark-700">
-        Virtuelle Zeitreisen
-      </p>
-      <h1 class='mt-4 text-4xl font-extrabold text-white md:mt-5 sm:text-5xl md:text-6xl'>
-     Geschichte neu entdecken!
-      </h1>
-      <p class='mx-auto mt-4 max-w-lg text-xl md:mt-5 text-green-300 md:max-w-3xl'>
-        Tauche ein in das <u>Urban Timetravel Metaverse</u>. Mit Virtual Reality Brille auf Zeitreise gehen. Einzigartiger Zugang zu Geschichte und Kultur. Demnächst auch in Deiner Region.
-      </p>
+        <!-- Hero text -->
+        <div class="max-w-screen-4xl mx-auto w-full text-center xl:max-w-5xl">
+            <p class="from-dark-600 to-dark-700 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-sm font-medium tracking-wide text-white">
+                Virtuelle Zeitreisen
+            </p>
+            <h1 class="mt-4 text-4xl font-bold text-white sm:text-5xl md:mt-5 md:text-6xl">
+                Geschichte <span class="underline">bewegend</span> entdecken!
+            </h1>
+            <p class="mx-auto mt-4 max-w-lg text-xl text-green md:mt-5 md:max-w-3xl">
+                Erleben Sie kreative Inszenierungen historischer Fakten in einzigartigen 3D-Welten. Stadtrundfahrten werden zur fasizinierenden Tourismusattraktion.
+            </p>
+        </div>
+
+        <!-- Hero image -->
+        <div class="mx-auto mt-12 max-w-screen-lg rounded-3xl shadow-xl">
+            <img class="h-auto max-w-full rounded-3xl align-middle" src="{{ $page->baseUrl }}/assets/images/breakdown_header.png">
+        </div>
     </div>
-    
-    <!-- Hero image -->
-    <div class='mx-auto mt-12 max-w-screen-lg rounded-3xl shadow-xl'>
-      <img class='max-w-full h-auto align-middle rounded-3xl' src='assets/images/hero.png'> 
-    </div>
-  </div>
 </section>
 
 <!-- Diagonal section separator -->
@@ -31,101 +31,113 @@
 
 <!-- Projects section -->
 <a name="projects"></a>
-<section class='py-10 px-4 md:py-12 bg-dark-800 sm:px-6 lg:px-8'>
+<section class="bg-dark-800 py-10 px-4 sm:px-6 md:py-12 lg:px-8">
 
-  <!-- Section text -->
-  <div class='mx-auto w-full max-w-screen-xl'>
-    
-          <!-- Featured work section header -->
-          <div class='mx-auto w-full max-w-xl text-center lg:max-w-3xl md:max-w-2xl'>
-            <p class="inline-flex justify-center items-center py-2 px-6 text-sm font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-dark-600 to-dark-700">
-              Unsere Projekte
+    <!-- Section text -->
+    <div class="mx-auto w-full max-w-screen-xl">
+
+        <!-- Featured work section header -->
+        <div class="mx-auto w-full max-w-xl text-center md:max-w-2xl lg:max-w-3xl">
+            <p class="from-dark-600 to-dark-700 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-sm font-medium tracking-wide text-white">
+                Unsere Projekte
             </p>
-      
-            <h2 class='mt-6 text-3xl font-extrabold text-white sm:text-4xl md:text-5xl'>
-              @TODO: Text
-            </h2>
-          </div>
 
-  <!-- Section content -->
-  <div class='mt-12 lg:mt-16'>
-
-  <!-- Work item -->
-  <div class='relative mx-auto max-w-lg lg:max-w-none lg:mx-none'>
-    <div class='lg:rounded-3xl rounded-t-3xl shadow-xl relative w-full lg:pt-23/50 lg:w-9/10 bg-cover bg-center h-64 lg:h-full' data-background-image="images/featured-work-image-01.jpg" style='background-image: url(assets/images/hero.png);'>
-    </div>
-    <div class='lg:rounded-3xl rounded-b-3xl shadow-xl h-auto relative w-full bottom-0 right-0 z-20 block p-6 sm:p-8 lg:p-12 bg-dark-700 lg:absolute lg:-bottom-25 lg:w-1/3 lg:h-full'>
-      <div class='h-full lg:flex lg:flex-col lg:justify-between'>
-        <div class='hidden lg:block'>
-          <p class="inline-flex justify-center items-center py-2 px-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-dark-800 to-dark-900">
-            Luxembourg
-          </p>
+            <h2 class="mt-6 text-3xl font-bold text-white sm:text-4xl md:text-5xl">Außergewöhnliches Erlebnis</h2>
+            <h3 class="mt-2 text-3xl font-semibold text-white sm:text-4xl md:text-5xl">Phänomenale Gestaltung</h3>
+            <h4 class="mt-2 text-3xl font-normal text-white sm:text-4xl md:text-5xl">Reibungsloser Ablauf</h4>
         </div>
-        <div class='flex flex-wrap w-full'>
-          <h3 class='text-3xl font-bold text-white lg:text-4xl'>
-            Zeitreise Luxembourg
-          </h3>
-          <p class='mt-2 text-base lg:mt-4 text-dark-300 md:text-lg'>
-            @TODO: Text
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class='py-6 lg:py-28'></div>
+        <!-- Section content -->
+        <div class="mt-12 lg:mt-16">
 
-  <!-- Work item -->
-  <div class='relative mx-auto max-w-lg lg:max-w-none lg:mx-none'>
-    <div class='lg:rounded-3xl rounded-t-3xl shadow-xl relative w-full lg:pt-23/50 lg:w-9/10 lg:ml-auto bg-cover bg-center h-64 lg:h-full' data-background-image="assets/images/hero.png" style='background-image: url(assets/images/hero.png);'>
-    </div>
-    <div class='lg:rounded-3xl rounded-b-3xl shadow-xl h-auto relative w-full bottom-0 left-0 z-20 block p-6 sm:p-8 lg:p-12 bg-dark-700 lg:h-full lg:absolute lg:-bottom-25 lg:w-1/3'>
-      <div class='h-full lg:flex lg:flex-col lg:justify-between'>
-        <div class='hidden lg:block'>
-          <p class="inline-flex justify-center items-center py-2 px-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-dark-800 to-dark-900">
-            Otterberg
-          </p>
-        </div>
-        <div class='flex flex-wrap w-full'>
-          <h3 class='text-3xl font-bold text-white lg:text-4xl'>
-            Stadtgeschichte Otterberg
-          </h3>
-          <p class='mt-2 text-base lg:mt-4 text-dark-300 lg:text-lg'>
-           @TODO: TEXT
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+            <!-- Project -->
+            <div class="relative mx-auto mt-12 max-w-screen-lg">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_pfaffenthal.png);">
+                </div>
+                <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-right-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
+                    <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
+                        Luxembourg
+                    </p>
 
-  <div class='py-6 lg:py-28'></div>
+                    <div class="mt-4 h-full lg:flex lg:flex-col lg:justify-between">
+                        <div class="flex w-full flex-wrap">
+                            <h3 class="text-3xl font-bold text-white lg:text-4xl">
+                                Zeitreise Pfaffenthal
+                            </h3>
+                            <p class="text-dark-300 mt-2 text-base lg:mt-4 lg:text-lg">
+                                Eine Wegebahn fährt Sie und bis zu 30 Mitfahrer durch das historische Viertel Pfaffenthal.
+                                Kutscher Jos erklärt den Besuchern die Lebensumstände der Einwohner kurz vor der
+                                Unabhängigkeit Luxembourgs. Der beeindruckende „Bockfels“ bot der Stadt einen strategisch wichtigen
+                                Schutz vor Eroberern.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-  <!-- Work item -->
-  <div class='relative mx-auto max-w-lg lg:max-w-none lg:mx-none'>
-    <div class='lg:rounded-3xl rounded-t-3xl shadow-xl relative w-full lg:pt-23/50 lg:w-9/10 bg-cover bg-center h-64 lg:h-full' data-background-image="assets/images/hero.png" style='background-image: url(assets/images/hero.png);'>
-    </div>
-    <div class='lg:rounded-3xl rounded-b-3xl shadow-xl h-auto relative w-full bottom-0 right-0 z-20 block p-6 sm:p-8 lg:p-12 bg-dark-700 lg:absolute lg:-bottom-25 lg:w-1/3 lg:h-full'>
-      <div class='h-full lg:flex lg:flex-col lg:justify-between'>
-        <div class='hidden lg:block'>
-          <p class="inline-flex justify-center items-center py-2 px-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-dark-800 to-dark-900">
-            Esch-sûr-Alzette
-          </p>
-        </div>
-        <div class='flex flex-wrap w-full'>
-          <h3 class='text-3xl font-bold text-white lg:text-4xl'>
-            Kulturerbe Alzette-Belval
-          </h3>
-          <p class='mt-2 text-base lg:mt-4 text-dark-300 md:text-lg'>
-            @TODO: Text
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+            <div class="py-6 lg:py-12"></div>
 
-  <div class='lg:py-12'></div>
-</div>
-  
+            <!-- Project -->
+            <div class="relative mx-auto mt-12 max-w-screen-lg">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_otterberg.png);">
+                </div>
+                <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-left-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
+                    <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
+                        Otterberg
+                    </p>
+
+                    <div class="mt-4 h-full lg:flex lg:flex-col lg:justify-between">
+                        <div class="flex w-full flex-wrap">
+                            <h3 class="text-3xl font-bold text-white lg:text-4xl">
+                                Stadtgeschichte Otterberg
+                            </h3>
+                            <p class="text-dark-300 mt-2 text-base lg:mt-4 lg:text-lg">
+                                Ein Planwagen gezogen von den Wallachen Herkules und Nero fährt 16 Besucher durch die
+                                Wallonenstadt.
+                                Erleben Sie mit Cellerar Mattheus und Handerwerker Jean-Francois die Blütezeit der
+                                Zisterzienser Mönche und den Aufstieg Otterbergs zu einer der größten Handels-und
+                                Handwerkerstädte der Westpfalz.
+                                Die historische Abtei steht heute noch und ist die zweitgrößte Kirche der Pfalz.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-6 lg:py-12"></div>
+
+            <!-- Project -->
+            <div class="relative mx-auto mt-12 max-w-screen-lg">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_belval.png);">
+                </div>
+                <div class="absolute left-4 top-4 z-20 block">
+                    <p class="text-dark mt-2 inline-flex items-center justify-center rounded-full bg-white py-2 px-6 text-sm font-medium tracking-wide lg:mt-4">
+                        Coming soon</p>
+                </div>
+                <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-right-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
+                    <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
+                        Esch-sûr-Alzette
+                    </p>
+
+                    <div class="mt-4 h-full lg:flex lg:flex-col lg:justify-between">
+                        <div class="flex w-full flex-wrap">
+                            <h3 class="text-3xl font-bold text-white lg:text-4xl">
+                                Kulturerbe Alzette-Belval
+                            </h3>
+                            <p class="text-dark-300 mt-2 text-base lg:mt-4 lg:text-lg">
+                                Lernen Sie die Geschichte der Minett-Region und deren Bewohner kennen.
+                                Die Reisebegleiter Pirchen und sein Enkel Emil fahren von der
+                                ehemaligen Minderalwasserquelle Source Belval bis hin zu dem Hüttengelände der
+                                ehemaligen ARBED-Werke.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:py-12"></div>
+        </div>
+
 
 </section>
 
@@ -134,142 +146,143 @@
 
 <!-- Services section -->
 <a name="services"></a>
-<section class="px-4 pt-10 pb-10 md:pt-12 md:pb-12 bg-dark-900 sm:px-6 lg:px-8">
-  <div class='flex flex-wrap items-center mx-auto w-full max-w-screen-xl'>
-    <div class='flex flex-wrap w-full'>
+<section class="bg-dark-900 px-4 pt-10 pb-10 sm:px-6 md:pt-12 md:pb-12 lg:px-8">
+    <div class="mx-auto flex w-full max-w-screen-xl flex-wrap items-center">
+        <div class="flex w-full flex-wrap">
 
-      <!-- Section header with button -->
-      <div class='flex w-full relative w-full lg:w-1/3'>
-        <div class='flex relative w-full'>
-          <div class='flex relative flex-wrap w-full flex-start lg:flex-col'>
-            <div class='relative w-full'>
-              <p class="inline-flex justify-center items-center py-2 px-6 text-sm font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-dark-600 to-dark-700">
-                Unsere Leistungen
-              </p>
-              <h2 class='relative mt-6 w-full text-3xl font-extrabold text-left text-white sm:text-4xl md:text-5xl'>
-                Design & Software aus einer Hand
-              </h2>
+            <!-- Section header with button -->
+            <div class="relative flex w-full w-full lg:w-1/3">
+                <div class="relative flex w-full">
+                    <div class="flex-start relative flex w-full flex-wrap lg:flex-col">
+                        <div class="relative w-full">
+                            <p class="from-dark-600 to-dark-700 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-sm font-medium tracking-wide text-white">
+                                Unsere Leistungen
+                            </p>
+                            <h2 class="mt-6 text-left text-3xl font-bold text-white sm:text-4xl md:text-5xl">
+                                Planung & Umsetzung
+                            </h2>
+                            <h2 class="mt-2 text-xl font-normal text-white sm:text-2xl md:text-3xl">aus einer Hand</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <!-- 2x6 features grid -->
+            <div class="relative mt-16 flex w-full lg:w-2/3 lg:pl-8">
+                <div class="grid w-full gap-y-10 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-16">
+
+                    <!-- Feature -->
+                    <div class="relative flex w-full flex-col">
+                        <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/consulting.svg">
+                        </span>
+                        <h4 class="mt-4 text-2xl font-semibold text-white">
+                            Beratung
+                        </h4>
+                        <p class="mt-1 max-w-md text-sm leading-relaxed text-green-300">
+                            Kompetene Beratung zugeschnitten auf Ihre Bedürfnisse
+                        </p>
+                    </div>
+
+                    <!-- Feature -->
+                    <div class="relative flex w-full flex-col">
+                        <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/concept.svg">
+                        </span>
+                        <h4 class="mt-4 text-2xl font-semibold text-white">
+                            Konzept
+                        </h4>
+                        <p class="mt-1 max-w-md text-sm leading-relaxed text-green-300">
+                            Entwicklung von bodenständigen Konzepten
+                        </p>
+                    </div>
+
+                    <!-- Feature -->
+                    <div class="relative flex w-full flex-col">
+                        <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/3d.svg">
+                        </span>
+                        <h4 class="mt-4 text-2xl font-semibold text-white">
+                            3D Design
+                        </h4>
+                        <p class="mt-1 max-w-md text-sm leading-relaxed text-green-300">
+                            Erstellung digitaler Modelle und kompletten 3D-Welten
+                        </p>
+                    </div>
+
+                    <!-- Feature -->
+                    <div class="relative flex w-full flex-col">
+                        <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/panorama.svg">
+                        </span>
+
+                        <h4 class="mt-4 text-2xl font-semibold text-white">
+                            Panoroma
+                        </h4>
+                        <p class="mt-1 max-w-md text-sm leading-relaxed text-green-300">
+                            Erstellung von 360°-Panoramen für unterschiedliche Anwendungsfälle
+                        </p>
+                    </div>
+
+                    <!-- Feature -->
+                    <div class="relative flex w-full flex-col">
+                        <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/software.svg">
+                        </span>
+
+                        <h4 class="mt-4 text-2xl font-semibold text-white">
+                            Software
+                        </h4>
+                        <p class="mt-1 max-w-md text-sm leading-relaxed text-green-300">
+                            Individuelle Entwicklung & Integration von (mobilen) Apps
+                        </p>
+                    </div>
+
+                    <!-- Feature -->
+                    <div class="relative flex w-full flex-col">
+                        <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/virtualreality.svg">
+                        </span>
+                        <h4 class="mt-4 text-2xl font-semibold text-white">
+                            Virtual Reality
+                        </h4>
+                        <p class="mt-1 max-w-md text-sm leading-relaxed text-green-300">
+                            Interaktive Echtzeiterlebnisse kombinieren Design & Software
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- 2x6 features grid -->
-      <div class='lg:w-2/3 relative flex w-full mt-16 lg:pl-8'>
-        <div class='grid gap-y-10 w-full sm:grid-cols-2 sm:gap-x-8 sm:gap-y-16'>
-
-          <!-- Feature -->
-          <div class='flex relative flex-col w-full'>
-            <span class='flex justify-center items-center w-16 h-16 bg-gradient-to-r rounded-3xl shadow-xl from-dark-600 to-dark-700 text-green-300 text-center'>
-            @TODO: Icon
-            </span>
-            <h4 class='mt-4 text-2xl font-semibold text-white'>
-              Beratung
-            </h4>
-            <p class='mt-1 max-w-md text-lg leading-relaxed text-green-300'>
-            @TODO: Text
-            </p>
-          </div>
-
-          <!-- Feature -->
-          <div class='flex relative flex-col w-full'>
-          <span class='flex justify-center items-center w-16 h-16 bg-gradient-to-r rounded-3xl shadow-xl from-dark-600 to-dark-700 text-green-300 text-center'>
-            @TODO: Icon
-            </span>
-            <h4 class='mt-4 text-2xl font-semibold text-white'>
-              Konzept
-            </h4>
-            <p class='mt-1 max-w-md text-lg leading-relaxed text-green-300'>
-            @TODO: Text
-            </p>
-          </div>
-
-          <!-- Feature -->
-          <div class='flex relative flex-col w-full'>
-          <span class='flex justify-center items-center w-16 h-16 bg-gradient-to-r rounded-3xl shadow-xl from-dark-600 to-dark-700 text-green-300 text-center'>
-            @TODO: Icon
-            </span>
-            <h4 class='mt-4 text-2xl font-semibold text-white'>
-              3D Design
-            </h4>
-            <p class='mt-1 max-w-md text-lg leading-relaxed text-green-300'>
-            @TODO: Text
-            </p>
-          </div>
-
-          <!-- Feature -->
-          <div class='flex relative flex-col w-full'>
-          <span class='flex justify-center items-center w-16 h-16 bg-gradient-to-r rounded-3xl shadow-xl from-dark-600 to-dark-700 text-green-300 text-center'>
-            @TODO: Icon
-            </span>
-            
-            <h4 class='mt-4 text-2xl font-semibold text-white'>
-              Panoroma
-            </h4>
-            <p class='mt-1 max-w-md text-lg leading-relaxed text-green-300'>
-            @TODO: Text
-            </p>
-          </div>
-
-          <!-- Feature -->
-          <div class='flex relative flex-col w-full'>
-          <span class='flex justify-center items-center w-16 h-16 bg-gradient-to-r rounded-3xl shadow-xl from-dark-600 to-dark-700 text-green-300 text-center'>
-            @TODO: Icon
-            </span>
-            
-            <h4 class='mt-4 text-2xl font-semibold text-white'>
-              Software
-            </h4>
-            <p class='mt-1 max-w-md text-lg leading-relaxed text-green-300'>
-            @TODO: Text
-            </p>
-          </div>
-
-          <!-- Feature -->
-          <div class='flex relative flex-col w-full'>
-          <span class='flex justify-center items-center w-16 h-16 bg-gradient-to-r rounded-3xl shadow-xl from-dark-600 to-dark-700 text-green-300 text-center'>
-            @TODO: Icon
-            </span>
-            <h4 class='mt-4 text-2xl font-semibold text-white'>
-              Virtual Reality
-            </h4>
-            <p class='mt-1 max-w-md text-lg leading-relaxed text-green-300'>
-            @TODO: Text
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
 
 <!-- CTA -->
 <a name="cta"></a>
-<section class='py-12 px-4 mx-auto max-w-screen-xl md:py-16 sm:px-6 lg:px-8'>
+<section class="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 md:py-16 lg:px-8">
 
-  <!-- CTA card -->
-  <div class="relative py-16 rounded-3xl bg-dark-700 lg:py-20">
+    <!-- CTA card -->
+    <div class="bg-dark-700 relative rounded-3xl py-16 lg:py-20">
 
-    <!-- Right background diagonal -->
-    <svg class='absolute top-0 right-1/4 inset-y-0 h-full text-dark-700 w-1/4 z-20' preserveaspectratio='none' viewbox='0 0 100 100' fill='currentcolor'>
-      <polygon points='0,0 100,0 0,100'/>
-    </svg>
-    <div class='absolute w-1/2 inset-y-0 h-full left-1/2 bg-dark-800 z-10 rounded-r-3xl'></div>
-   
-    <!-- CTA content --> 
-    <div class="flex relative z-10 z-30 flex-col justify-center items-center px-4 mx-auto text-center sm:px-16 lg:flex-row lg:text-left">
-      <div class="max-w-lg font-bold text-2xl sm:text-4xl lg:w-1/2">
-        <h5 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
-          Lust auf eine Zeitreise?
-        </h5>
-      </div>
-      <div class="max-w-lg flex justify-center mt-10 lg:w-1/2 lg:mt-0 lg:justify-end">
-        <a class="flex justify-center items-center py-4 px-8 w-auto h-14 text-base font-semibold leading-snug bg-white rounded-full transition ease-in-out duration-250 text-green-900 hover:text-white focus:outline-none hover:bg-dark-900" href="contact.html">
-          In Verbindung setzen
-        </a>
-      </div>
+        <!-- Right background diagonal -->
+        <svg class="text-dark-700 absolute inset-y-0 top-0 right-1/4 z-20 h-full w-1/4" preserveaspectratio="none" viewbox="0 0 100 100" fill="currentcolor">
+            <polygon points="0,0 100,0 0,100" />
+        </svg>
+        <div class="bg-dark-800 absolute inset-y-0 left-1/2 z-10 h-full w-1/2 rounded-r-3xl"></div>
+
+        <!-- CTA content -->
+        <div class="relative z-10 z-30 mx-auto flex flex-col items-center justify-center px-4 text-center sm:px-16 lg:flex-row lg:text-left">
+            <div class="max-w-lg text-2xl font-bold sm:text-4xl lg:w-1/2">
+                <h5 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+                    Lust auf eine Zeitreise?
+                </h5>
+            </div>
+            <div class="mt-10 flex max-w-lg justify-center lg:mt-0 lg:w-1/2 lg:justify-end">
+                <a class="duration-250 hover:bg-dark-900 flex h-14 w-auto items-center justify-center rounded-full bg-white py-4 px-8 text-base font-semibold leading-snug text-green-900 transition ease-in-out hover:text-white focus:outline-none" href="mailto:post@urbantimetravel.com">
+                    Kontakt aufnehmen
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 @endsection
