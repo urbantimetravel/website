@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'title' => 'Urban Timetravel',
+    'description' => 'Virtual Reality Timetravel experiences',
     'collections' => [],
 ];
