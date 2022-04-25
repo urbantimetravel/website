@@ -21,7 +21,7 @@
 
         <!-- Hero image -->
         <div class="mx-auto mt-12 max-w-screen-lg rounded-3xl shadow-xl">
-            <img class="h-auto max-w-full rounded-3xl align-middle" src="{{ $page->baseUrl }}/assets/images/breakdown_header.jpg">
+            <img class="h-auto max-w-full rounded-3xl align-middle" src="{{ $page->baseUrl }}assets/images/breakdown_header.jpg">
         </div>
     </div>
 </section>
@@ -52,7 +52,7 @@
 
             <!-- Project -->
             <div class="relative mx-auto mt-12 max-w-screen-lg">
-                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_pfaffenthal.jpg);">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}assets/images/timetravel_pfaffenthal.jpg);">
                 </div>
                 <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-right-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
                     <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
@@ -79,7 +79,7 @@
 
             <!-- Project -->
             <div class="relative mx-auto mt-12 max-w-screen-lg">
-                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_otterberg.jpg);">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}assets/images/timetravel_otterberg.jpg);">
                 </div>
                 <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-left-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
                     <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
@@ -108,7 +108,7 @@
 
             <!-- Project -->
             <div class="relative mx-auto mt-12 max-w-screen-lg">
-                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_belval.jpg);">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}assets/images/timetravel_belval.jpg);">
                 </div>
                 <div class="absolute left-4 top-4 z-20 block">
                     <p class="text-dark mt-2 inline-flex items-center justify-center rounded-full bg-white py-2 px-6 text-sm font-medium tracking-wide lg:mt-4">
@@ -174,7 +174,7 @@
                     <!-- Feature -->
                     <div class="relative flex w-full flex-col">
                         <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
-                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/consulting.svg">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}assets/images/consulting.svg">
                         </span>
                         <h4 class="mt-4 text-2xl font-semibold text-white">
                             Beratung
@@ -187,7 +187,7 @@
                     <!-- Feature -->
                     <div class="relative flex w-full flex-col">
                         <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
-                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/concept.svg">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}assets/images/concept.svg">
                         </span>
                         <h4 class="mt-4 text-2xl font-semibold text-white">
                             Konzept
@@ -200,7 +200,7 @@
                     <!-- Feature -->
                     <div class="relative flex w-full flex-col">
                         <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
-                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/3d.svg">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}assets/images/3d.svg">
                         </span>
                         <h4 class="mt-4 text-2xl font-semibold text-white">
                             3D Design
@@ -213,7 +213,7 @@
                     <!-- Feature -->
                     <div class="relative flex w-full flex-col">
                         <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
-                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/panorama.svg">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}assets/images/panorama.svg">
                         </span>
 
                         <h4 class="mt-4 text-2xl font-semibold text-white">
@@ -227,7 +227,7 @@
                     <!-- Feature -->
                     <div class="relative flex w-full flex-col">
                         <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
-                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/software.svg">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}assets/images/software.svg">
                         </span>
 
                         <h4 class="mt-4 text-2xl font-semibold text-white">
@@ -241,7 +241,7 @@
                     <!-- Feature -->
                     <div class="relative flex w-full flex-col">
                         <span class="from-dark-600 to-dark-700 flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-r text-center text-green-300 shadow-xl">
-                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}/assets/images/virtualreality.svg">
+                            <img class="h-10 w-10 items-center rounded-2xl" src="{{ $page->baseUrl }}assets/images/virtualreality.svg">
                         </span>
                         <h4 class="mt-4 text-2xl font-semibold text-white">
                             Virtual Reality
