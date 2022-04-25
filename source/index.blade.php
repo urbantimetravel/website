@@ -15,13 +15,13 @@
                 Geschichte <span class="underline">bewegend</span> entdecken!
             </h1>
             <p class="mx-auto mt-4 max-w-lg text-xl text-green md:mt-5 md:max-w-3xl">
-                Erleben Sie kreative Inszenierungen historischer Fakten in einzigartigen 3D-Welten. Stadtrundfahrten werden zur fasizinierenden Tourismusattraktion.
+                Erleben Sie kreative Inszenierungen historischer Fakten in einzigartigen <br> 3D-Welten. Stadtrundfahrten werden zur faszinierenden Tourismusattraktion.
             </p>
         </div>
 
         <!-- Hero image -->
         <div class="mx-auto mt-12 max-w-screen-lg rounded-3xl shadow-xl">
-            <img class="h-auto max-w-full rounded-3xl align-middle" src="{{ $page->baseUrl }}/assets/images/breakdown_header.png">
+            <img class="h-auto max-w-full rounded-3xl align-middle" src="{{ $page->baseUrl }}/assets/images/breakdown_header.jpg">
         </div>
     </div>
 </section>
@@ -52,7 +52,7 @@
 
             <!-- Project -->
             <div class="relative mx-auto mt-12 max-w-screen-lg">
-                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_pfaffenthal.png);">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_pfaffenthal.jpg);">
                 </div>
                 <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-right-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
                     <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
@@ -79,7 +79,7 @@
 
             <!-- Project -->
             <div class="relative mx-auto mt-12 max-w-screen-lg">
-                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_otterberg.png);">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_otterberg.jpg);">
                 </div>
                 <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-left-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
                     <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
@@ -92,10 +92,10 @@
                                 Stadtgeschichte Otterberg
                             </h3>
                             <p class="text-dark-300 mt-2 text-base lg:mt-4 lg:text-lg">
-                                Ein Planwagen gezogen von den Wallachen Herkules und Nero fährt 16 Besucher durch die
+                                Ein Planwagen, der von den Wallachen Herkules und Nero gezogen wird, fährt 16 Besucher durch die
                                 Wallonenstadt.
-                                Erleben Sie mit Cellerar Mattheus und Handerwerker Jean-Francois die Blütezeit der
-                                Zisterzienser Mönche und den Aufstieg Otterbergs zu einer der größten Handels-und
+                                Erleben Sie mit Cellerar Mattheus und Handwerker Jean-Francois die Blütezeit der
+                                Zisterzienser Mönche und den Aufstieg Otterbergs zu einer der größten Handels- und
                                 Handwerkerstädte der Westpfalz.
                                 Die historische Abtei steht heute noch und ist die zweitgrößte Kirche der Pfalz.
                             </p>
@@ -108,7 +108,7 @@
 
             <!-- Project -->
             <div class="relative mx-auto mt-12 max-w-screen-lg">
-                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_belval.png);">
+                <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}/assets/images/timetravel_belval.jpg);">
                 </div>
                 <div class="absolute left-4 top-4 z-20 block">
                     <p class="text-dark mt-2 inline-flex items-center justify-center rounded-full bg-white py-2 px-6 text-sm font-medium tracking-wide lg:mt-4">
@@ -127,7 +127,7 @@
                             <p class="text-dark-300 mt-2 text-base lg:mt-4 lg:text-lg">
                                 Lernen Sie die Geschichte der Minett-Region und deren Bewohner kennen.
                                 Die Reisebegleiter Pirchen und sein Enkel Emil fahren von der
-                                ehemaligen Minderalwasserquelle Source Belval bis hin zu dem Hüttengelände der
+                                ehemaligen Mineralwasserquelle Source Belval bis hin zu dem Hüttengelände der
                                 ehemaligen ARBED-Werke.
                             </p>
                         </div>
@@ -180,7 +180,7 @@
                             Beratung
                         </h4>
                         <p class="mt-1 max-w-md text-sm leading-relaxed text-green-300">
-                            Kompetene Beratung zugeschnitten auf Ihre Bedürfnisse
+                            Kompetente Beratung zugeschnitten auf Ihre Bedürfnisse
                         </p>
                     </div>
 
