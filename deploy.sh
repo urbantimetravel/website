@@ -2,6 +2,7 @@
 
 npm run prod
 ./vendor/bin/jigsaw build production
+echo www.urbantimetravel.com > build_production/CNAME
 git add -f build_production
 git commit -m "Build for deploy"
 git subtree split --prefix build_production -b gh-pages

@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => 'https://urbantimetravel.github.io/website/'
+    'baseUrl' => 'https://www.urbantimetravel.com/'
 ];
