@@ -43,9 +43,6 @@
                 9, Rue du Laboratoire
                 <br>L-1911 Luxembourg
             </p>
-            <p class="text-md">
-                +352 (0) 691 231 377
-            </p>
         </div>
 
         <div class="lg:mx-auto">

@@ -54,6 +54,11 @@
             <div class="relative mx-auto mt-12 max-w-screen-lg">
                 <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}assets/images/timetravel_pfaffenthal.jpg);">
                 </div>
+                <div class="absolute left-4 top-4 z-20 block">
+                    <a class="duration-250 hover:bg-white flex w-auto items-center justify-center rounded-full bg-green-300 py-3 px-8 text-sm font-semibold leading-snug text-dark transition ease-in-out focus:outline-none" href="https://sightseeing.lu/tour/petrusse-express-time-travel-in-the-old-town-vr/">
+                    Hier Tickets buchen!
+                    </a>
+                </div>
                 <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-right-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
                     <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
                         Luxembourg
@@ -80,6 +85,11 @@
             <!-- Project -->
             <div class="relative mx-auto mt-12 max-w-screen-lg">
                 <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}assets/images/timetravel_otterberg.jpg);">
+                </div>
+                <div class="absolute right-4 top-4 z-20 block">
+                    <a class="duration-250 hover:bg-white flex w-auto items-center justify-center rounded-full bg-green-300 py-3 px-8 text-sm font-semibold leading-snug text-dark transition ease-in-out focus:outline-none" href="https://www.otterbach-otterberg.de/tourismus-freizeit/gaestefuehrungen/time-travel/">
+                        Hier Tickets buchen!
+                    </a>
                 </div>
                 <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-left-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
                     <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
@@ -111,8 +121,9 @@
                 <div class="relative h-64 w-full rounded-t-3xl lg:rounded-3xl bg-cover bg-center shadow-xl lg:pt-23/50 lg:w-full lg:h-full" style="background-image: url({{ $page->baseUrl }}assets/images/timetravel_belval.jpg);">
                 </div>
                 <div class="absolute left-4 top-4 z-20 block">
-                    <p class="text-dark mt-2 inline-flex items-center justify-center rounded-full bg-white py-2 px-6 text-sm font-medium tracking-wide lg:mt-4">
-                        Coming soon</p>
+                    <a class="duration-250 hover:bg-white flex w-auto items-center justify-center rounded-full bg-green-300 py-3 px-8 text-sm font-semibold leading-snug text-dark transition ease-in-out focus:outline-none" href="https://sightseeing.lu/tour/time-travel-belval-school-group-tickets/">
+                        Hier Tickets buchen!
+                    </a>
                 </div>
                 <div class="bg-dark-700 relative lg:absolute lg:-bottom-20 lg:-right-20 xl:w-96 z-20 block h-auto w-full rounded-b-3xl lg:rounded-3xl p-6 shadow-xl sm:p-8">
                     <p class="from-dark-800 to-dark-900 inline-flex items-center justify-center rounded-r-full rounded-tl-full bg-gradient-to-r py-2 px-6 text-xs font-medium tracking-wide text-white">
@@ -278,7 +289,7 @@
                 </h5>
             </div>
             <div class="mt-10 flex max-w-lg justify-center lg:mt-0 lg:w-1/2 lg:justify-end">
-                <a class="duration-250 hover:bg-dark-900 flex h-14 w-auto items-center justify-center rounded-full bg-white py-4 px-8 text-base font-semibold leading-snug text-green-900 transition ease-in-out hover:text-white focus:outline-none" href="mailto:post@urbantimetravel.com">
+                <a class="duration-250 hover:bg-green flex h-14 w-auto items-center justify-center rounded-full bg-white py-4 px-8 text-base font-semibold leading-snug text-green-900 transition ease-in-out hover:text-white focus:outline-none" href="mailto:post@urbantimetravel.com">
                     Kontakt aufnehmen
                 </a>
             </div>
